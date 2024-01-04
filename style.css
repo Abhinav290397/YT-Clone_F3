@@ -1,0 +1,162 @@
+* {
+  font-family: "ABeeZee", sans-serif;
+  font-family: "Inter", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: black;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+#header {
+  width: 100vw;
+  height: 60px;
+  background-color: rgba(33, 33, 33, 1);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+}
+#h1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 150px;
+  height: 50px;
+  background-color: transparent;
+}
+#btn1 {
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  border: none;
+}
+#btn2 {
+  width: 90px;
+  height: 50px;
+  color: white;
+  background-color: transparent;
+  border: none;
+}
+.fa-brands {
+  font-size: larger;
+}
+
+#h2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+  height: 30px;
+  background-color: transparent;
+}
+#input-text {
+  width: 350px;
+  height: 40px;
+  border: none;
+  color: white;
+  background-color: black;
+  padding-left: 10px;
+}
+.fa-magnifying-glass {
+  background-color: transparent;
+  margin: 10px;
+}
+
+#h3 {
+  height: 30px;
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: transparent;
+}
+
+#container {
+  display: flex;
+  height: 650px;
+  width: 98.8vw;
+  padding-top: 60px;
+}
+#c1 {
+  background-color: aqua;
+  flex: 0.8;
+  overflow-y: scroll;
+  color: white;
+}
+#c2 {
+  background-color: chartreuse;
+  flex: 3;
+  overflow-y: scroll;
+  color: white;
+}
+
+#cc1 {
+  width: 100%;
+  height: 1300px;
+  background-color: rgba(33, 33, 33, 1);
+}
+#cc2 {
+  width: 100%;
+  height: 1000px;
+  background-color: black;
+}
+
+#dv1 {
+  box-sizing: border-box;
+  width: 224px;
+  height: 144px;
+  padding: 20px;
+}
+.z1 {
+  width: 100%;
+  height: 35px;
+  display: flex;
+  align-items: center;
+}
+.car1 {
+  background-color: transparent;
+  color: white;
+  border: none;
+  margin-left: 18px;
+  font-size: 16px;
+}
+.car1:hover{
+    cursor: pointer;
+}
+.line {
+  background-color: aliceblue;
+  width: 100%;
+  height: 0.3px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#dv2 {
+  box-sizing: border-box;
+  width: 224px;
+  height: 244px;
+  padding: 20px;
+}
+#dv3 {
+  box-sizing: border-box;
+  width: 224px;
+  height: 350px;
+  padding: 20px;
+}
+h4{
+    margin: 10px;
+}
+.cr1{
+    height: 15px;
+    width: 15px;
+    border: 2px solid white;
+    border-radius: 50%;
+    object-fit: fill;
+    overflow: hidden;
+}
